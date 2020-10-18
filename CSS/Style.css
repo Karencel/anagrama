@@ -1,0 +1,78 @@
+
+body{
+	margin: 0;
+}
+header{
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top:0;
+	background-color: white;
+	z-index: 1;/*para poner capas como en photoshop, por niveles*/
+}
+/*header*/
+header img{
+	height: 20vh; /*medida parecido al porcentaje (ejemplo: el 20% de la altura de nuestra pantalla, no importa de que tamaño este la pantalla todo se va acomodando diseño responsivo)*/
+
+
+}
+nav{
+	background-color: #0e5a68;
+	color: white;
+	height: 25px;
+
+}
+nav a{
+	text-decoration: none; /*Para cambiar el color a un en lace a un "etiqueta a"*/
+	color: white;
+	width: 20%;
+	display: inline-block; /*Cambiar el ancho a elemnto de linea, "etiqueta a" es un elemento de linea*/
+	padding: 5px 0;
+	font-family: monospace;
+}
+
+
+}
+#portada{
+	width: 100%;
+	z-index: 2;
+}
+/*main*/
+main{
+	height: 1500px;
+	margin-top: 25vh;
+	text-align: center;
+}
+main a{
+	width: 80%;
+	display: inline-block; /*Cambiar el ancho a elemnto de linea, "etiqueta a" es un elemento de linea*/
+	padding: 5px 0;
+}
+
+#reserva{
+	margin: 0 4% 0 0;
+	
+}
+/*footer*/
+footer{
+	text-align: center;
+	
+}
+.redes{
+	background-color: #0e5a68;
+	height:50px;
+	padding-top: 15px; 
+	margin: 0 2% 0 0;
+}
+.redes a{
+	margin: 0 2% 0 0;
+}
+.terms{
+	font-family: monospace;
+}
+.terms h4{
+	margin-bottom: 0;
+}
+.terms h5{
+	margin-top: 0;
+}
